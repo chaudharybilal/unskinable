@@ -1,0 +1,49 @@
+body,h1,h2,h3,h4,h5 
+{
+	font-family: "Raleway", sans-serif;
+	background: rgb(125,126,125);
+background: -moz-linear-gradient(-45deg, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+background: -webkit-linear-gradient(-45deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+background: linear-gradient(135deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 );
+	
+	
+}
+
+td,th,tr,table
+{
+	
+	/*border:5px solid black;*/
+	width:100%;
+	
+	
+}
+
+.dimple-custom-axis-line,.domain .dimple-axis-y,
+.axis path,
+.axis line {
+  fill: none;
+ /* stroke: #fff;*/
+  stroke: none;
+  shape-rendering: crispEdges;
+  stroke-width: 1px;
+}
+
+
+.bar rect {
+  fill: steelblue;
+  border:block;
+  stroke:black;
+  stroke-opacity:0.5;
+  stroke-width:1;
+}
+
+.bar text {
+  fill: #fff;
+  font: 10px sans-serif;
+}
+
+svg text {
+  fill: #fff;
+  font: 10px sans-serif;
+}
