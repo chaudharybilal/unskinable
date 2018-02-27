@@ -16,7 +16,7 @@ var lasty = 0; //Max of filter selection of chart 4
 //On window load, loads the data from file into Alldata element and calls the function to draw all the charts
 $( window ).on( "load", function() {
         console.log( "window loaded" );
-		d3.csv("http://localhost:8000/titanic-data.csv", function(data) {
+		d3.csv("https://raw.githubusercontent.com/chaudharybilal/unskinable/master/data/titanic-data.csv", function(data) {
 		Alldata = data;
 		//console.log(data);
 
