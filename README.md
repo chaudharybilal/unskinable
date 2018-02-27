@@ -15,7 +15,6 @@ Charts show tooltip and markers to the axis.
 Following are the feedback:
 #### User1: 
 > It looks great, but charts should be porperly labeled. 
-###### Questions
 - What do you notice in the visualization? 
 > I noticed that mostly people embarked the titanic were from ages of 18 to 36.
 - What questions do you have about the data? 
@@ -39,7 +38,7 @@ Is there something you don’t understand in the graphic?
   #### User3:
   > I think it is a good visualization, but a light border around the the chart containers would look nicer also, the background can go a liiter lighter I think.
 - What do you notice in the visualization? 
->
+> Charts???
 - What questions do you have about the data?
 > Does this data includes the data from crew members as well?
 - What relationships do you notice?
