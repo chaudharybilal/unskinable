@@ -13,7 +13,7 @@ Charts show tooltip and markers to the axis.
 
 ### Feedback - 
 Following are the feedback:
-###### User1: 
+#### User1: 
 > It looks great, but charts should be porperly labeled. 
 ###### Questions
 - What do you notice in the visualization? 
@@ -27,19 +27,27 @@ Following are the feedback:
 Is there something you don’t understand in the graphic? 
 > Not really.
 
-  ###### User2:
+  #### User2:
   > umm.... I think the filterable charts should show "hand cursor" also they should appear top of filtered charts.
-      What do you notice in the visualization? I noticed that Male population on Titanic was almost double of females.
-      What relationships do you notice? The survival ratio for women is always higher than males in almost every case.
-      What do you think is the main takeaway from this visualization? I think this shows a pretty clear image of the demographics of peoples of titanic.  
+- What do you notice in the visualization? 
+> I noticed that Male population on Titanic was almost double of females.
+- What relationships do you notice?
+> The survival ratio for women is always higher than males in almost every case.
+- What do you think is the main takeaway from this visualization?
+> I think this shows a pretty clear image of the demographics of peoples of titanic.  
   
-  ###### User3:
+  #### User3:
   > I think it is a good visualization, but a light border around the the chart containers would look nicer also, the background can go a liiter lighter I think.
-      What do you notice in the visualization? 
-      What questions do you have about the data? Does this data includes the data from crew members as well?
-      What relationships do you notice? I don't get what kind of relationship are we talking about here.
-      What do you think is the main takeaway from this visualization?  I think this visualization clearly portrays that most of the people died were from 3rd class seats, were travelling alone, and they boarded the ship from Southampton.
-      Is there something you don’t understand in the graphic? No!
+- What do you notice in the visualization? 
+>
+- What questions do you have about the data?
+> Does this data includes the data from crew members as well?
+- What relationships do you notice?
+> I don't get what kind of relationship are we talking about here.
+- What do you think is the main takeaway from this visualization?
+> I think this visualization clearly portrays that most of the people died were from 3rd class seats, were travelling alone, and they boarded the ship from Southampton.
+-  Is there something you don’t understand in the graphic? 
+> No!
 
   
 ### Resources -
