@@ -16,11 +16,16 @@ Following are the feedback:
 ###### User1: 
 > It looks great, but charts should be porperly labeled. 
 ###### Questions
-- What do you notice in the visualization? > I noticed that mostly people embarked the titanic were from ages of 18 to 36.
-- What questions do you have about the data? > Is this the complete passenger data?
-- What relationships do you notice? > I notice, that even though most poeple were embarked from Southhampton, and most of them died, but  most of the females who embarked from southhampton survived.
-- What do you think is the main takeaway from this visualization? >  The focus of the recusing party were mostly women and people from first class seats.
-Is there something you don’t understand in the graphic? > Not really.
+- What do you notice in the visualization? 
+> I noticed that mostly people embarked the titanic were from ages of 18 to 36.
+- What questions do you have about the data? 
+> Is this the complete passenger data?
+- What relationships do you notice? 
+> I notice, that even though most poeple were embarked from Southhampton, and most of them died, but  most of the females who embarked from southhampton survived.
+- What do you think is the main takeaway from this visualization? 
+>  The focus of the recusing party were mostly women and people from first class seats.
+Is there something you don’t understand in the graphic? 
+> Not really.
 
   ###### User2:
   > umm.... I think the filterable charts should show "hand cursor" also they should appear top of filtered charts.
