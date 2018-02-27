@@ -1,0 +1,268 @@
+/*Chart Heading Gradient Background */
+#hd{
+	background:steelblue;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: #70bg32;
+	background-repeat:no-repeat;
+	background: -webkit-linear-gradient( to left , black, steelblue,black);
+	background: -moz-linear-gradient( to left , black, steelblue,black);
+	background: -ms-linear-gradient( to left , black, steelblue,black);
+	background: -o-linear-gradient( to left , black, steelblue,black);
+	background: linear-gradient( to left , black, steelblue,black);
+}
+/*Page Gradient Background */
+html {
+    height: 100%;
+		background:steelblue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #70bg32;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, black, steelblue);
+    background: -moz-linear-gradient( to left top, black, steelblue);
+    background: -ms-linear-gradient( to left top, black, steelblue);
+    background: -o-linear-gradient( to left top, black, steelblue);
+    background: linear-gradient( to left top, black, steelblue);
+}
+
+/*All Tables, Rows, Columns and Headers*/
+td,th,tr,table{
+	width:100%;
+}
+
+
+/*Disabling Line axis line for Histogram(chart4) */
+.dimple-custom-axis-line,.domain .dimple-axis-y,
+.axis path,
+.axis line {
+  fill: none;
+ /* stroke: #fff;*/
+  stroke: none;
+  shape-rendering: crispEdges;
+  stroke-width: 1px;
+}
+
+/* Bars of Histogram */
+.bar rect {
+	fill:grey;
+  border:block;
+  stroke:black;
+  stroke-opacity:0.5;
+  stroke-width:1;
+}
+
+.bar text {
+  fill: #000;
+  font: 10px sans-serif;
+}
+
+/*All the text within SVGs*/
+
+svg text {
+ fill: #fff;
+  font: 10px sans-serif;
+}
+
+/* Tool tip of chart 1,2,3 & 5*/
+.dimple-custom-tooltip-box {
+	 fill: rgb(125,126,125) !important;
+}
+
+/* Chart gradient backgrounds & Gradient Borders respectivly*/
+#chart1 {
+  position: relative;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: #70bg32;
+	background-repeat:no-repeat;
+	background: -webkit-linear-gradient( to right top, black, steelblue);
+	background: -moz-linear-gradient( to right top, black, steelblue);
+	background: -ms-linear-gradient( to right top, black, steelblue);
+	background: -o-linear-gradient( to right top, black, steelblue);
+	background: linear-gradient( to right top, black, steelblue);
+
+}
+#chart1:before, #chart1:after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: -3px;
+
+}
+#chart1:before {
+  top: -3px;
+  width: 3px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#000), to(transparent));
+  background-image: -webkit-linear-gradient(transparent, #000);
+  background-image: -moz-linear-gradient(transparent, #000);
+  background-image: -o-linear-gradient(transparent, #000);
+}
+#chart1:after {
+  right: -3px;
+  height: 3px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#000), to(transparent));
+  background-image: -webkit-linear-gradient(left, #000, transparent);
+  background-image: -moz-linear-gradient(left, #000, transparent);
+  background-image: -o-linear-gradient(left, #000, transparent);
+}
+
+#chart3 {
+  position: relative;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: #70bg32;
+	background-repeat:no-repeat;
+	background: -webkit-linear-gradient( to left top, black, steelblue);
+	background: -moz-linear-gradient( to left top, black, steelblue);
+	background: -ms-linear-gradient( to left top, black, steelblue);
+	background: -o-linear-gradient( to left top, black, steelblue);
+	background: linear-gradient( to left top, black, steelblue);
+}
+#chart3:before, #chart3:after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  right: -3px;
+
+}
+#chart3:before {
+  top: -3px;
+  width: 3px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#000), to(transparent));
+  background-image: -webkit-linear-gradient(transparent, #000);
+  background-image: -moz-linear-gradient(transparent, #000);
+  background-image: -o-linear-gradient(transparent, #000);
+}
+#chart3:after {
+  left: -3px;
+  height: 3px;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000));
+  background-image: -webkit-linear-gradient(right, #000, transparent);
+  background-image: -moz-linear-gradient(right, #000, transparent);
+  background-image: -o-linear-gradient(right, #000, transparent);
+}
+
+#chart2 {
+  position: relative;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: #70bg32;
+	background-repeat:no-repeat;
+	background: -webkit-linear-gradient( to top, #23415A, steelblue);
+	background: -moz-linear-gradient( to top, #23415A, steelblue);
+	background: -ms-linear-gradient( to top, #23415A, steelblue);
+	background: -o-linear-gradient( to top, #23415A, steelblue);
+	background: linear-gradient( to top, #23415A, steelblue);
+
+}
+#chart2:before, #chart2:after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  right: -3px;
+
+}
+
+#chart2:after {
+	left: -3px;
+  height: 3px;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000), to(transparent));
+  background-image: -webkit-linear-gradient(left, transparent, #000 50%, transparent);
+  background-image: -moz-linear-gradient(left, transparent, #000 50%, transparent);
+  background-image: -o-linear-gradient(left,  transparent, #000 50%, transparent);
+}
+
+
+#chart4 {
+  position: relative;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: #70bg32;
+	background-repeat:no-repeat;
+	background: -webkit-linear-gradient( to right bottom, black, steelblue);
+	background: -moz-linear-gradient( to right bottom, black, steelblue);
+	background: -ms-linear-gradient( to right bottom, black, steelblue);
+	background: -o-linear-gradient( to right bottom, black, steelblue);
+	background: linear-gradient( to right bottom, black, steelblue);
+}
+#chart4:before, #chart4:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+
+}
+#chart4:before {
+  bottom: -3px;
+  width: 3px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#000), to(transparent));
+  background-image: -webkit-linear-gradient(#000,transparent);
+  background-image: -moz-linear-gradient(#000,transparent);
+  background-image: -o-linear-gradient(#000,transparent);
+}
+#chart4:after {
+  right: -3px;
+  height: 3px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#000), to(transparent));
+  background-image: -webkit-linear-gradient(left, #000, transparent);
+  background-image: -moz-linear-gradient(left, #000, transparent);
+  background-image: -o-linear-gradient(left, #000, transparent);
+}
+
+#chart5 {
+  position: relative;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: #70bg32;
+	background-repeat:no-repeat;
+	background: -webkit-linear-gradient( to left bottom, black, steelblue);
+	background: -moz-linear-gradient( to left bottom, black, steelblue);
+	background: -ms-linear-gradient( to left bottom, black, steelblue);
+	background: -o-linear-gradient( to left bottom, black, steelblue);
+	background: linear-gradient( to left bottom, black, steelblue);
+
+}
+#chart5:before, #chart5:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+
+}
+#chart5:before {
+  bottom: -3px;
+  width: 3px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(transparent), to(#000));
+	background-image: -webkit-linear-gradient(#000,transparent);
+  background-image: -moz-linear-gradient(#000,transparent);
+  background-image: -o-linear-gradient(#000,transparent);
+}
+#chart5:after {
+  left: -3px;
+  height: 3px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#000), to(transparent));
+  background-image: -webkit-linear-gradient(right, #000, transparent);
+  background-image: -moz-linear-gradient(right, #000, transparent);
+  background-image: -o-linear-gradient(right, #000, transparent);
+}
+
+/* Make pointer cursor on selectable pie slices*/
+.dimple-custom-series-pie{
+	cursor: pointer;
+}
