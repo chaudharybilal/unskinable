@@ -4,11 +4,19 @@ This application visualizes the passenger data of Titanic. It shows the age dist
 Without using any interactivity(filtering) it is clear from the visualization that most on-boarded were from age of 18 to 40, almost 2/3 of them were Male. More-over, most of the people who died were seated on 3rd class seats, were traveling alone, and embarked the ship from Southhampton. Now the users can filter on Age groups(first: histogram chart) and Gender (second: pie chart) to further drill down to this information.
 
 ### Design - 
-This application contains 5 charts, 2 of them can filter the data & remaining 3 of them are filterable. 
-User can select one filter at a time. To deselect the selected filter, user will have to select the selection again.
-To show the tranisition of filtered data, I've added the animation effect.
-Data & Charts are properly labeled.
-Charts show tooltip and markers to the axis.
+This application contains 5 charts, 2 of them can filter the data & remaining 3 of them are filterable. User can select one filter at a time. 
+
+###### After getting some of the feedback, (some in soft form) I've made few changes and they are 
+
+- Added Deselection: To deselect the selected filter, user will have to select the selection again.
+- Added Animation: To show the tranisition of filtered data.
+- Data & Charts are properly labeled.
+- Added chart titles
+- Charts show formatted tooltip.
+- Formatted the background & chart containers with gradient colors
+- Made the tooltips more readable
+- Added custom Sorting and custom colors
+- Changed the locations of chart container
 
 
 ### Feedback - 
@@ -50,4 +58,4 @@ Is there something you don’t understand in the graphic?
 
   
 ### Resources -
-I used a combo of D3 & Dimple Js. Other than these, I've used Ajax & google fonts api.
+I used a combo of D3 & Dimple Js. Other than these, I've used Ajax & google fonts api. The data is loaded in /data folder, and index.html, css and js of initail draft are placed in initial_draft folder
