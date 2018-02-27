@@ -4,7 +4,7 @@ This application visualizes the passenger data of Titanic. It shows the age dist
 Without using any interactivity(filtering) it is clear from the visualization that most on-boarded were from age of 18 to 40, almost 2/3 of them were Male. More-over, most of the people who died were seated on 3rd class seats, were traveling alone, and embarked the ship from Southhampton. Now the users can filter on Age groups(first: histogram chart) and Gender (second: pie chart) to further drill down to this information.
 
 ### Design - 
-This application contains 5 charts, 2 of them can filter the data & remaining 3 of them are filterable. User can select one filter at a time. 
+This application contains 5 charts, 2 of them can filter the data & remaining 3 of them are filterable. User can select one filter at a time. Data is placed in the data folder, but due to browser security issue, i've hosted the file at "http://localhost:8000/titanic-data.csv" and used this location in my code.
 
 ###### After getting some of the feedback, (some in soft form) I've made few changes and they are 
 
@@ -58,4 +58,5 @@ Is there something you don’t understand in the graphic?
 
   
 ### Resources -
-I used a combo of D3 & Dimple Js. Other than these, I've used Ajax & google fonts api. The data is loaded in /data folder, and index.html, css and js of initail draft are placed in initial_draft folder
+I used a combo of D3 & Dimple Js. Other than these, I've used Ajax & google fonts api. The data is loaded in /data folder, and index.html, css and js of initail draft are placed in initial_draft folder.
+Data is placed in the data folder, but due to browser security issue, i've hosted the file at "http://localhost:8000/titanic-data.csv" and used this location in my code.
