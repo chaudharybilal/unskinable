@@ -1,10 +1,10 @@
-## Unskinable
-
-#Summary - 
+# Unskinable
+Sinking of the Unsikable
+##Summary - 
 This application visualizes the passenger data of Titanic. It shows the age distribution of all passengers, their gender, and using the age & gender, the user can filter seat class, their company and embarkment wise deaths and survival of titanic passengers.
 Without using any interactivity(filtering) it is clear from the visualization that most on-boarded were from age of 18 to 40, almost 2/3 of them were Male. More-over, most of the people who died were seated on 3rd class seats, were traveling alone, and embarked the ship from Southhampton. Now the users can filter on Age groups(first: histogram chart) and Gender (second: pie chart) to further drill down to this information.
 
-#Design - 
+##Design - 
 This application contains 5 charts, 2 of them can filter the data & remaining 3 of them are filterable. 
 User can select one filter at a time. To deselect the selected filter, user will have to select the selection again.
 To show the tranisition of filtered data, I've added the animation effect.
